@@ -1,0 +1,14 @@
+shaaban: hatem please skip branching we work now in shaa allah fast forward 
+/////////////////////////////////////////////
+test cases 
+/**
+admin :
+(test email is unique 
+when he wrote e duplicate email )
+
+(
+move between its screens quickly 
+
+)
+
+*/

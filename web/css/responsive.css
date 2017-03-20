@@ -1,0 +1,281 @@
+/* Portrait & landscape phone */
+@media (min-width: 320px) and (max-width: 480px) {
+	.section-title{
+		font-size: 34px;
+	}
+	.section-subtitle{
+		font-size: 16px;
+	}
+	#slider .slide-element img{
+		margin-left: 10px;
+	}
+	#slider .carousel-control{
+		display: none;
+	}
+	#about .imac{
+		margin-left: 64px;
+	}
+	#about .web_content{
+		text-align: center;
+	}
+	#about .web_content h1{
+		font-size: 20px;
+	}
+	#about .web_content h4{
+		font-size: 14px;
+	}
+	#about .web_content p{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	#about .web_content a{
+		font-size: 16px;
+		padding: 5px 10px;
+	}
+	#promotion .promotion_content, .ifarem{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#promotion .promotion_content h1{
+		font-size: 16px;
+	}
+	#promotion .promotion_content h4{
+		font-size: 12px;
+	}
+	#promotion .promotion_content p{
+		font-size: 15px;
+		line-height: 22px;
+	}
+	#promotion .embed-responsive-item{
+		width: 250px;
+		height: 200px;
+		margin-left: 10px;
+	}
+	#promotion .promotion_content a{
+		font-size: 16px;
+		padding: 8px 30px;
+	}
+	#promotion .promotion_content,.ifarem{
+		min-height: 50px;
+	}
+	#pricing h4{
+		font-size: 26px;
+	}
+	#pricing h5{
+		font-size: 20px;
+	}
+	#pricing a{
+		padding: 8px 32px;
+		font-size: 18px;
+	}
+	#pricing ul p{
+		font-size: 16px;
+	}
+	#testimonial h1{
+		font-size: 110px;
+	}
+	#testimonial h2{
+		font-size: 14px;
+	}
+	#contact .carousel-control{
+		display: none;
+	}
+	#header .navbar-nav a{
+		width: 250px;
+		height: 32px;
+		z-index: 9999;
+		border-radius: 0px;
+		min-width: 50px;
+		text-align: center;
+		background: #38404A;
+		border-bottom: 1px solid #ddd;
+		border: 1px solid #ddd;
+	}
+	#header .navbar-nav a:first-child{
+		border-top: 1px solid #ddd;
+		margin: 0;
+	} 
+	#header .navbar-nav li.active a{
+		border-radius:0px;
+	}
+	#testimonial .clint{
+		margin-left: 80px;
+	}
+	#testimonial .info{
+		display: none;
+	}
+	#clients li a{
+		margin: 0px -22px;
+	}
+	#portfolio .work-mig figure{
+		width: 270px;
+		margin-top: -60px;
+	}
+	#portfolio .work-mig figcaption{
+		height: 74%;
+	}
+	#portfolio .border h4{
+		padding-bottom: 0px;
+		margin-top: 0px;
+	}
+	#portfolio .border{
+		height: 176px;
+		width: 230px;
+	}
+	#pricing .text p{
+		font-size: 16px;
+	}
+	#pricing .pri_table{
+		margin-top: 30px;
+	}
+	#contact .content p{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	#why .modern, .phone{
+		text-align: center;
+		padding-bottom: 26px;
+	}
+	#why .modern p{
+		font-size: 14px;
+		width: 290px;
+	}
+	#why .list_item ul li i{
+		font-size: 22px;
+	}
+	#why .list_item ul li a{
+		font-size: 16px;
+	}
+	#why .modern h1{
+		font-size: 18px;
+	}
+	#why .btn{
+		font-size: 16px;
+		padding: 10px 18px;
+	}
+	
+	.ifarem{
+		padding-top: 45px;
+	}
+	#footer-top h1{
+		font-size: 20px;
+	}
+	#footer-top p{
+		font-size: 20px;
+	}
+	#footer-top a{
+		font-size: 16px;
+		padding: 10px 26px;
+	}
+	#footer a{
+		margin-right: 100px;
+		font-size: 14px;
+	}
+	#footer .socile a{
+		font-size: 14px;
+		margin: 0px;
+	}
+	#footer .socile ul li a{
+		margin: 0 2px;
+	}
+	#footer p{
+		font-size: 14px;
+	}
+
+
+/* Landscape phone to portrait tablet */
+@media only screen  (min-width:768px) and (max-width: 1024px)  {
+	.carousel-caption {
+		font-size: 16px;
+	}
+	#contact .carousel-control{
+		display: none;
+	}
+	#slider .slide-element{
+		font-size: 18px;
+	}
+	.content_slide{
+		display: none;
+	}
+	#slider .slide-element img{
+		margin-left: 8px;
+	}
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	#slider .content_slide h2{
+		font-size: 12px;
+	}
+	#slider{
+		display: none;
+	}
+	#header .navbar-nav li a{
+		margin-right: 10px;
+	}
+	#about .designer{
+		margin-left: 200px;
+	}
+	#portfolio .work-mig{
+		margin-left: -24px;
+		margin-right: 14px;
+	}
+	#footer .socile ul{
+		font-size: 16px;
+	}
+	#pricing .text p{
+		font-size: 18px;
+		line-height: 22px;
+        }
+
+@media (max-width: 568px) {
+	#header .navbar-nav a{
+		width: 250px;
+		height: 32px;
+		z-index: 9999;
+		border-radius: 0px;
+		min-width: 50px;
+		text-align: center;
+		background: #38404A;
+		border-bottom: 1px solid #ddd;
+		border: 1px solid #ddd;
+	}
+	#header .navbar-nav a:first-child{
+		border-top: 1px solid #ddd;
+		margin: 0;
+	} 
+	#header .navbar-nav li.active a{
+		border-radius:0px;
+	}
+}
+@media only screen and (min-width: 668px) and (max-width: 991px) {
+	#slider .slide-element img{
+		margin: -10px -32px 33px 55px;
+	}
+	#slider .content_slide{
+		margin-top: 95px;
+	}
+	#slider .content_slide h2{
+		font-size: 22px;
+	}
+	#slider .content_slide p{
+		font-size: 18px;
+	}
+	#slider ul{
+		margin-top: 0px;
+		font-size: 18px;
+	}
+	#slider h1{
+		font-size: 20px;
+	}
+	#portfolio .work-mig{
+		margin-left: -24px;
+		margin-right: 14px;
+	}
+	#why .phone{
+		margin-left: -68px;
+	}
+	#contact .carousel-control{
+		display: none;
+	}
+
+}

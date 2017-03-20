@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SignupServlet</servlet-name>
+        <servlet-class>com.mobiland.controller.SignupServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminLogIn</servlet-name>
+        <servlet-class>com.mobiland.admin.controller.AdminLogIn</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminSignup</servlet-name>
+        <servlet-class>com.mobiland.admin.controller.AdminSignup</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminAddProduct</servlet-name>
+        <servlet-class>com.mobiland.product.controller.AdminAddProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignupServlet</servlet-name>
+        <url-pattern>/SignupServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminLogIn</servlet-name>
+        <url-pattern>/AdminLogIn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminSignup</servlet-name>
+        <url-pattern>/AdminSignup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminAddProduct</servlet-name>
+        <url-pattern>/AdminAddProduct</url-pattern>
+    </servlet-mapping>
+    
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>
+                Restricted Area
+            </web-resource-name>
+            <url-pattern>/AdminIndex.jsp</url-pattern>
+            <url-pattern>/AdminAddProduct.jsp</url-pattern>
+            <http-method>GET</http-method>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+            <role-name>manager-script</role-name>
+        </auth-constraint>
+    </security-constraint>
+    <login-config>
+        <auth-method>DIGEST</auth-method>
+    </login-config>
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/Error404.html</location>
+    </error-page>
+    
+</web-app>
